@@ -1,0 +1,700 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683103291298' stop='1683104519978'>
+    <name>WeeklySchedules:</name>
+    <title>WeeklySchedules:</title>
+    <test-cases>
+        <test-case start='1683103583181' status='passed' stop='1683104519972'>
+            <name>00W_Bogota_1_All</name>
+            <title>00W_Bogota_1_All</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1683103583185' status='passed' stop='1683103583185'>
+                    <name>testcase for time zone - America/Bogota with interval 1 - All Day</name>
+                    <title>testcase for time zone - America/Bogota with interval 1 - All Day</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103583188' status='passed' stop='1683103583188'>
+                    <name>I set the subscription name to be 03May23_1416_00W_Bogota_1_All</name>
+                    <title>I set the subscription name to be 03May23_1416_00W_Bogota_1_All</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103583188' status='passed' stop='1683103583188'>
+                    <name>Subscription Name :03May23_1416_00W_Bogota_1_All</name>
+                    <title>Subscription Name :03May23_1416_00W_Bogota_1_All</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103583202' status='passed' stop='1683103583202'>
+                    <name>I assign start date in timezone 2023-05-03 03:46:23 AM</name>
+                    <title>I assign start date in timezone 2023-05-03 03:46:23 AM</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103583202' status='passed' stop='1683103583202'>
+                    <name>I assign end date in timezone 2023-05-11 11:59:59 PM</name>
+                    <title>I assign end date in timezone 2023-05-11 11:59:59 PM</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103583202' status='passed' stop='1683103583202'>
+                    <name>I assign first schedule date time in timezone 2023-05-03 03:56:00 AM</name>
+                    <title>I assign first schedule date time in timezone 2023-05-03 03:56:00 AM</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103583202' status='passed' stop='1683103583202'>
+                    <name>I assign time zone to be America/Bogota</name>
+                    <title>I assign time zone to be America/Bogota</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103583311' status='passed' stop='1683103583311'>
+                    <name>I created a new subscription successfully </name>
+                    <title>I created a new subscription successfully </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103583312' status='passed' stop='1683103583312'>
+                    <name>I am calculating the number of jobs according to the subscription</name>
+                    <title>I am calculating the number of jobs according to the subscription</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103583329' status='passed' stop='1683103593340'>
+                    <name>I wait 10</name>
+                    <title>I wait 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103593342' status='passed' stop='1683103593342'>
+                    <name>I determined the list of time to be changed in orchestrator for the scheduler validation</name>
+                    <title>I determined the list of time to be changed in orchestrator for the scheduler validation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103593342' status='passed' stop='1683103593342'>
+                    <name>Next time :2023-05-03 03:55:40 Unix Time : 1683104160</name>
+                    <title>Next time :2023-05-03 03:55:40 Unix Time : 1683104160</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103593357' status='passed' stop='1683103593357'>
+                    <name>I modified the orchestrator time with the parameter ?dateTime=2023-05-03 03:55:40&amp;secret=turing-automation-26052021&amp;timeZone=America/Bogota</name>
+                    <title>I modified the orchestrator time with the parameter ?dateTime=2023-05-03 03:55:40&amp;secret=turing-automation-26052021&amp;timeZone=America/Bogota</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103593357' status='passed' stop='1683103593357'>
+                    <name>I am waiting for the scheduler to move to the status 200</name>
+                    <title>I am waiting for the scheduler to move to the status 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103593358' status='passed' stop='1683103693457'>
+                    <name>I wait 100</name>
+                    <title>I wait 100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103693491' status='passed' stop='1683103693491'>
+                    <name>I fetched the response of get subscription job list api successfully</name>
+                    <title>I fetched the response of get subscription job list api successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103693493' status='passed' stop='1683103693493'>
+                    <name>I see the current status code for 1683104160 to be 200</name>
+                    <title>I see the current status code for 1683104160 to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103693493' status='passed' stop='1683103693493'>
+                    <name>I see the status code for 1683104160  to validate to be 200</name>
+                    <title>I see the status code for 1683104160  to validate to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103693529' status='passed' stop='1683103693529'>
+                    <name>I am going to validate the schedule id 1 for the epoch time  1683104160</name>
+                    <title>I am going to validate the schedule id 1 for the epoch time  1683104160</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103693529' status='passed' stop='1683103693529'>
+                    <name>I validated the schedule status to be 200</name>
+                    <title>I validated the schedule status to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103694721' status='passed' stop='1683103694721'>
+                    <name>I validated the overall job status code to be 200</name>
+                    <title>I validated the overall job status code to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103694722' status='passed' stop='1683103694722'>
+                    <name>I determined the list of time to be changed in orchestrator for the scheduler validation</name>
+                    <title>I determined the list of time to be changed in orchestrator for the scheduler validation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103694722' status='passed' stop='1683103694722'>
+                    <name>Next time :2023-05-04 03:55:40 Unix Time : 1683190560</name>
+                    <title>Next time :2023-05-04 03:55:40 Unix Time : 1683190560</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103694735' status='passed' stop='1683103694735'>
+                    <name>I modified the orchestrator time with the parameter ?dateTime=2023-05-04 03:55:40&amp;secret=turing-automation-26052021&amp;timeZone=America/Bogota</name>
+                    <title>I modified the orchestrator time with the parameter ?dateTime=2023-05-04 03:55:40&amp;secret=turing-automation-26052021&amp;timeZone=America/Bogota</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103694735' status='passed' stop='1683103694735'>
+                    <name>I am waiting for the scheduler to move to the status 200</name>
+                    <title>I am waiting for the scheduler to move to the status 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103694736' status='passed' stop='1683103794801'>
+                    <name>I wait 100</name>
+                    <title>I wait 100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103794853' status='passed' stop='1683103794853'>
+                    <name>I fetched the response of get subscription job list api successfully</name>
+                    <title>I fetched the response of get subscription job list api successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103794854' status='passed' stop='1683103794854'>
+                    <name>I see the current status code for 1683190560 to be 200</name>
+                    <title>I see the current status code for 1683190560 to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103794854' status='passed' stop='1683103794854'>
+                    <name>I see the status code for 1683190560  to validate to be 200</name>
+                    <title>I see the status code for 1683190560  to validate to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103794889' status='passed' stop='1683103794889'>
+                    <name>I am going to validate the schedule id 1 for the epoch time  1683190560</name>
+                    <title>I am going to validate the schedule id 1 for the epoch time  1683190560</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103794889' status='passed' stop='1683103794889'>
+                    <name>I validated the schedule status to be 200</name>
+                    <title>I validated the schedule status to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103800231' status='passed' stop='1683103800231'>
+                    <name>I validated the overall job status code to be 200</name>
+                    <title>I validated the overall job status code to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103800233' status='passed' stop='1683103800233'>
+                    <name>I determined the list of time to be changed in orchestrator for the scheduler validation</name>
+                    <title>I determined the list of time to be changed in orchestrator for the scheduler validation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103800233' status='passed' stop='1683103800233'>
+                    <name>Next time :2023-05-05 03:55:40 Unix Time : 1683276960</name>
+                    <title>Next time :2023-05-05 03:55:40 Unix Time : 1683276960</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103800255' status='passed' stop='1683103800255'>
+                    <name>I modified the orchestrator time with the parameter ?dateTime=2023-05-05 03:55:40&amp;secret=turing-automation-26052021&amp;timeZone=America/Bogota</name>
+                    <title>I modified the orchestrator time with the parameter ?dateTime=2023-05-05 03:55:40&amp;secret=turing-automation-26052021&amp;timeZone=America/Bogota</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103800255' status='passed' stop='1683103800255'>
+                    <name>I am waiting for the scheduler to move to the status 200</name>
+                    <title>I am waiting for the scheduler to move to the status 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103800255' status='passed' stop='1683103900357'>
+                    <name>I wait 100</name>
+                    <title>I wait 100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103900433' status='passed' stop='1683103900433'>
+                    <name>I fetched the response of get subscription job list api successfully</name>
+                    <title>I fetched the response of get subscription job list api successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103900434' status='passed' stop='1683103900434'>
+                    <name>I see the current status code for 1683276960 to be 200</name>
+                    <title>I see the current status code for 1683276960 to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103900434' status='passed' stop='1683103900434'>
+                    <name>I see the status code for 1683276960  to validate to be 200</name>
+                    <title>I see the status code for 1683276960  to validate to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103900468' status='passed' stop='1683103900468'>
+                    <name>I am going to validate the schedule id 1 for the epoch time  1683276960</name>
+                    <title>I am going to validate the schedule id 1 for the epoch time  1683276960</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103900468' status='passed' stop='1683103900468'>
+                    <name>I validated the schedule status to be 200</name>
+                    <title>I validated the schedule status to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103901645' status='passed' stop='1683103901645'>
+                    <name>I validated the overall job status code to be 200</name>
+                    <title>I validated the overall job status code to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103901646' status='passed' stop='1683103901646'>
+                    <name>I determined the list of time to be changed in orchestrator for the scheduler validation</name>
+                    <title>I determined the list of time to be changed in orchestrator for the scheduler validation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103901646' status='passed' stop='1683103901646'>
+                    <name>Next time :2023-05-06 03:55:40 Unix Time : 1683363360</name>
+                    <title>Next time :2023-05-06 03:55:40 Unix Time : 1683363360</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103901662' status='passed' stop='1683103901662'>
+                    <name>I modified the orchestrator time with the parameter ?dateTime=2023-05-06 03:55:40&amp;secret=turing-automation-26052021&amp;timeZone=America/Bogota</name>
+                    <title>I modified the orchestrator time with the parameter ?dateTime=2023-05-06 03:55:40&amp;secret=turing-automation-26052021&amp;timeZone=America/Bogota</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103901662' status='passed' stop='1683103901662'>
+                    <name>I am waiting for the scheduler to move to the status 200</name>
+                    <title>I am waiting for the scheduler to move to the status 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683103901662' status='passed' stop='1683104001761'>
+                    <name>I wait 100</name>
+                    <title>I wait 100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104001785' status='passed' stop='1683104001785'>
+                    <name>I fetched the response of get subscription job list api successfully</name>
+                    <title>I fetched the response of get subscription job list api successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104001786' status='passed' stop='1683104001786'>
+                    <name>I see the current status code for 1683363360 to be 200</name>
+                    <title>I see the current status code for 1683363360 to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104001786' status='passed' stop='1683104001786'>
+                    <name>I see the status code for 1683363360  to validate to be 200</name>
+                    <title>I see the status code for 1683363360  to validate to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104001809' status='passed' stop='1683104001809'>
+                    <name>I am going to validate the schedule id 1 for the epoch time  1683363360</name>
+                    <title>I am going to validate the schedule id 1 for the epoch time  1683363360</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104001809' status='passed' stop='1683104001809'>
+                    <name>I validated the schedule status to be 200</name>
+                    <title>I validated the schedule status to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104003093' status='passed' stop='1683104003093'>
+                    <name>I validated the overall job status code to be 200</name>
+                    <title>I validated the overall job status code to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104003094' status='passed' stop='1683104003094'>
+                    <name>I determined the list of time to be changed in orchestrator for the scheduler validation</name>
+                    <title>I determined the list of time to be changed in orchestrator for the scheduler validation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104003094' status='passed' stop='1683104003094'>
+                    <name>Next time :2023-05-07 03:55:40 Unix Time : 1683449760</name>
+                    <title>Next time :2023-05-07 03:55:40 Unix Time : 1683449760</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104003108' status='passed' stop='1683104003108'>
+                    <name>I modified the orchestrator time with the parameter ?dateTime=2023-05-07 03:55:40&amp;secret=turing-automation-26052021&amp;timeZone=America/Bogota</name>
+                    <title>I modified the orchestrator time with the parameter ?dateTime=2023-05-07 03:55:40&amp;secret=turing-automation-26052021&amp;timeZone=America/Bogota</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104003108' status='passed' stop='1683104003108'>
+                    <name>I am waiting for the scheduler to move to the status 200</name>
+                    <title>I am waiting for the scheduler to move to the status 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104003108' status='passed' stop='1683104103129'>
+                    <name>I wait 100</name>
+                    <title>I wait 100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104103170' status='passed' stop='1683104103170'>
+                    <name>I fetched the response of get subscription job list api successfully</name>
+                    <title>I fetched the response of get subscription job list api successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104103171' status='passed' stop='1683104103171'>
+                    <name>I see the current status code for 1683449760 to be 200</name>
+                    <title>I see the current status code for 1683449760 to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104103171' status='passed' stop='1683104103171'>
+                    <name>I see the status code for 1683449760  to validate to be 200</name>
+                    <title>I see the status code for 1683449760  to validate to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104103198' status='passed' stop='1683104103198'>
+                    <name>I am going to validate the schedule id 1 for the epoch time  1683449760</name>
+                    <title>I am going to validate the schedule id 1 for the epoch time  1683449760</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104103198' status='passed' stop='1683104103198'>
+                    <name>I validated the schedule status to be 200</name>
+                    <title>I validated the schedule status to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104104425' status='passed' stop='1683104104425'>
+                    <name>I validated the overall job status code to be 200</name>
+                    <title>I validated the overall job status code to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104104426' status='passed' stop='1683104104426'>
+                    <name>I determined the list of time to be changed in orchestrator for the scheduler validation</name>
+                    <title>I determined the list of time to be changed in orchestrator for the scheduler validation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104104426' status='passed' stop='1683104104426'>
+                    <name>Next time :2023-05-08 03:55:40 Unix Time : 1683536160</name>
+                    <title>Next time :2023-05-08 03:55:40 Unix Time : 1683536160</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104104444' status='passed' stop='1683104104444'>
+                    <name>I modified the orchestrator time with the parameter ?dateTime=2023-05-08 03:55:40&amp;secret=turing-automation-26052021&amp;timeZone=America/Bogota</name>
+                    <title>I modified the orchestrator time with the parameter ?dateTime=2023-05-08 03:55:40&amp;secret=turing-automation-26052021&amp;timeZone=America/Bogota</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104104444' status='passed' stop='1683104104444'>
+                    <name>I am waiting for the scheduler to move to the status 200</name>
+                    <title>I am waiting for the scheduler to move to the status 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104104444' status='passed' stop='1683104204543'>
+                    <name>I wait 100</name>
+                    <title>I wait 100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104204616' status='passed' stop='1683104204616'>
+                    <name>I fetched the response of get subscription job list api successfully</name>
+                    <title>I fetched the response of get subscription job list api successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104204617' status='passed' stop='1683104204617'>
+                    <name>I see the current status code for 1683536160 to be 200</name>
+                    <title>I see the current status code for 1683536160 to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104204617' status='passed' stop='1683104204617'>
+                    <name>I see the status code for 1683536160  to validate to be 200</name>
+                    <title>I see the status code for 1683536160  to validate to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104204641' status='passed' stop='1683104204641'>
+                    <name>I am going to validate the schedule id 1 for the epoch time  1683536160</name>
+                    <title>I am going to validate the schedule id 1 for the epoch time  1683536160</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104204641' status='passed' stop='1683104204641'>
+                    <name>I validated the schedule status to be 200</name>
+                    <title>I validated the schedule status to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104205810' status='passed' stop='1683104205810'>
+                    <name>I validated the overall job status code to be 200</name>
+                    <title>I validated the overall job status code to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104205812' status='passed' stop='1683104205812'>
+                    <name>I determined the list of time to be changed in orchestrator for the scheduler validation</name>
+                    <title>I determined the list of time to be changed in orchestrator for the scheduler validation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104205812' status='passed' stop='1683104205812'>
+                    <name>Next time :2023-05-09 03:55:40 Unix Time : 1683622560</name>
+                    <title>Next time :2023-05-09 03:55:40 Unix Time : 1683622560</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104205834' status='passed' stop='1683104205834'>
+                    <name>I modified the orchestrator time with the parameter ?dateTime=2023-05-09 03:55:40&amp;secret=turing-automation-26052021&amp;timeZone=America/Bogota</name>
+                    <title>I modified the orchestrator time with the parameter ?dateTime=2023-05-09 03:55:40&amp;secret=turing-automation-26052021&amp;timeZone=America/Bogota</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104205834' status='passed' stop='1683104205834'>
+                    <name>I am waiting for the scheduler to move to the status 200</name>
+                    <title>I am waiting for the scheduler to move to the status 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104205834' status='passed' stop='1683104305936'>
+                    <name>I wait 100</name>
+                    <title>I wait 100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104305984' status='passed' stop='1683104305984'>
+                    <name>I fetched the response of get subscription job list api successfully</name>
+                    <title>I fetched the response of get subscription job list api successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104305985' status='passed' stop='1683104305985'>
+                    <name>I see the current status code for 1683622560 to be 200</name>
+                    <title>I see the current status code for 1683622560 to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104305985' status='passed' stop='1683104305985'>
+                    <name>I see the status code for 1683622560  to validate to be 200</name>
+                    <title>I see the status code for 1683622560  to validate to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104306007' status='passed' stop='1683104306007'>
+                    <name>I am going to validate the schedule id 1 for the epoch time  1683622560</name>
+                    <title>I am going to validate the schedule id 1 for the epoch time  1683622560</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104306008' status='passed' stop='1683104306008'>
+                    <name>I validated the schedule status to be 200</name>
+                    <title>I validated the schedule status to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104307193' status='passed' stop='1683104307193'>
+                    <name>I validated the overall job status code to be 200</name>
+                    <title>I validated the overall job status code to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104307196' status='passed' stop='1683104307196'>
+                    <name>I determined the list of time to be changed in orchestrator for the scheduler validation</name>
+                    <title>I determined the list of time to be changed in orchestrator for the scheduler validation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104307196' status='passed' stop='1683104307196'>
+                    <name>Next time :2023-05-10 03:55:40 Unix Time : 1683708960</name>
+                    <title>Next time :2023-05-10 03:55:40 Unix Time : 1683708960</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104307212' status='passed' stop='1683104307212'>
+                    <name>I modified the orchestrator time with the parameter ?dateTime=2023-05-10 03:55:40&amp;secret=turing-automation-26052021&amp;timeZone=America/Bogota</name>
+                    <title>I modified the orchestrator time with the parameter ?dateTime=2023-05-10 03:55:40&amp;secret=turing-automation-26052021&amp;timeZone=America/Bogota</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104307212' status='passed' stop='1683104307212'>
+                    <name>I am waiting for the scheduler to move to the status 200</name>
+                    <title>I am waiting for the scheduler to move to the status 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104307212' status='passed' stop='1683104407219'>
+                    <name>I wait 100</name>
+                    <title>I wait 100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104407246' status='passed' stop='1683104407246'>
+                    <name>I fetched the response of get subscription job list api successfully</name>
+                    <title>I fetched the response of get subscription job list api successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104407246' status='passed' stop='1683104407246'>
+                    <name>I see the current status code for 1683708960 to be 210</name>
+                    <title>I see the current status code for 1683708960 to be 210</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104407246' status='passed' stop='1683104407246'>
+                    <name>I see the status code for 1683708960  to validate to be 200</name>
+                    <title>I see the status code for 1683708960  to validate to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104407246' status='passed' stop='1683104407246'>
+                    <name>I plan to wait for 10 more seconds</name>
+                    <title>I plan to wait for 10 more seconds</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104407246' status='passed' stop='1683104417254'>
+                    <name>I wait 10</name>
+                    <title>I wait 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104417297' status='passed' stop='1683104417297'>
+                    <name>I fetched the response of get subscription job list api successfully</name>
+                    <title>I fetched the response of get subscription job list api successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104417298' status='passed' stop='1683104417298'>
+                    <name>I see the current status code after 15 sec to be 200</name>
+                    <title>I see the current status code after 15 sec to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104417298' status='passed' stop='1683104417298'>
+                    <name>I have waited for (sec)10 and will wait till (sec)360 for the epoch time 1683708960</name>
+                    <title>I have waited for (sec)10 and will wait till (sec)360 for the epoch time 1683708960</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104417323' status='passed' stop='1683104417323'>
+                    <name>I am going to validate the schedule id 1 for the epoch time  1683708960</name>
+                    <title>I am going to validate the schedule id 1 for the epoch time  1683708960</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104417323' status='passed' stop='1683104417323'>
+                    <name>I validated the schedule status to be 200</name>
+                    <title>I validated the schedule status to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104418515' status='passed' stop='1683104418515'>
+                    <name>I validated the overall job status code to be 200</name>
+                    <title>I validated the overall job status code to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104418516' status='passed' stop='1683104418516'>
+                    <name>I determined the list of time to be changed in orchestrator for the scheduler validation</name>
+                    <title>I determined the list of time to be changed in orchestrator for the scheduler validation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104418516' status='passed' stop='1683104418516'>
+                    <name>Next time :2023-05-11 03:55:40 Unix Time : 1683795360</name>
+                    <title>Next time :2023-05-11 03:55:40 Unix Time : 1683795360</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104418531' status='passed' stop='1683104418531'>
+                    <name>I modified the orchestrator time with the parameter ?dateTime=2023-05-11 03:55:40&amp;secret=turing-automation-26052021&amp;timeZone=America/Bogota</name>
+                    <title>I modified the orchestrator time with the parameter ?dateTime=2023-05-11 03:55:40&amp;secret=turing-automation-26052021&amp;timeZone=America/Bogota</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104418531' status='passed' stop='1683104418531'>
+                    <name>I am waiting for the scheduler to move to the status 200</name>
+                    <title>I am waiting for the scheduler to move to the status 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104418531' status='passed' stop='1683104518586'>
+                    <name>I wait 100</name>
+                    <title>I wait 100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104518621' status='passed' stop='1683104518621'>
+                    <name>I fetched the response of get subscription job list api successfully</name>
+                    <title>I fetched the response of get subscription job list api successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104518621' status='passed' stop='1683104518621'>
+                    <name>I see the current status code for 1683795360 to be 200</name>
+                    <title>I see the current status code for 1683795360 to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104518621' status='passed' stop='1683104518621'>
+                    <name>I see the status code for 1683795360  to validate to be 200</name>
+                    <title>I see the status code for 1683795360  to validate to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104518648' status='passed' stop='1683104518648'>
+                    <name>I am going to validate the schedule id 1 for the epoch time  1683795360</name>
+                    <title>I am going to validate the schedule id 1 for the epoch time  1683795360</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104518648' status='passed' stop='1683104518648'>
+                    <name>I validated the schedule status to be 200</name>
+                    <title>I validated the schedule status to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683104519947' status='passed' stop='1683104519947'>
+                    <name>I validated the overall job status code to be 200</name>
+                    <title>I validated the overall job status code to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,274 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683093861819' stop='1683094519545'>
+    <name>LeapYearSchedules:</name>
+    <title>LeapYearSchedules:</title>
+    <test-cases>
+        <test-case start='1683094155437' status='passed' stop='1683094519538'>
+            <name>04_M_Relative_LY_Pacific_1_1</name>
+            <title>04_M_Relative_LY_Pacific_1_1</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1683094155443' status='passed' stop='1683094155443'>
+                    <name>testcase for time zone -Pacific/Auckland  with interval 1 - Last Thursday</name>
+                    <title>testcase for time zone -Pacific/Auckland  with interval 1 - Last Thursday</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094155444' status='passed' stop='1683094155444'>
+                    <name>I set the subscription name to be 03May23_1139_03_MR_LY_Pacific_1_1</name>
+                    <title>I set the subscription name to be 03May23_1139_03_MR_LY_Pacific_1_1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094155444' status='passed' stop='1683094155444'>
+                    <name>Subscription Name :03May23_1139_03_MR_LY_Pacific_1_1</name>
+                    <title>Subscription Name :03May23_1139_03_MR_LY_Pacific_1_1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094155478' status='passed' stop='1683094155478'>
+                    <name>I assign start date in timezone 2024-01-23 01:00:00 PM</name>
+                    <title>I assign start date in timezone 2024-01-23 01:00:00 PM</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094155478' status='passed' stop='1683094155478'>
+                    <name>I assign end date in timezone 2024-04-23 11:59:59 PM</name>
+                    <title>I assign end date in timezone 2024-04-23 11:59:59 PM</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094155478' status='passed' stop='1683094155478'>
+                    <name>I assign first schedule date time in timezone 2024-01-23 01:10:00 PM</name>
+                    <title>I assign first schedule date time in timezone 2024-01-23 01:10:00 PM</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094155478' status='passed' stop='1683094155478'>
+                    <name>I assign time zone to be Pacific/Auckland</name>
+                    <title>I assign time zone to be Pacific/Auckland</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094155581' status='passed' stop='1683094155581'>
+                    <name>I created a new subscription successfully </name>
+                    <title>I created a new subscription successfully </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094155582' status='passed' stop='1683094155582'>
+                    <name>I am calculating the number of jobs according to the subscription</name>
+                    <title>I am calculating the number of jobs according to the subscription</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094155598' status='passed' stop='1683094215639'>
+                    <name>I wait 60</name>
+                    <title>I wait 60</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094215642' status='passed' stop='1683094215642'>
+                    <name>I determined the list of time to be changed in orchestrator for the scheduler validation</name>
+                    <title>I determined the list of time to be changed in orchestrator for the scheduler validation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094215642' status='passed' stop='1683094215642'>
+                    <name>Next time :2024-01-25 13:09:40 Unix Time : 1706141400</name>
+                    <title>Next time :2024-01-25 13:09:40 Unix Time : 1706141400</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094215656' status='passed' stop='1683094215656'>
+                    <name>I modified the orchestrator time with the parameter ?dateTime=2024-01-25 13:09:40&amp;secret=turing-automation-26052021&amp;timeZone=Pacific/Auckland</name>
+                    <title>I modified the orchestrator time with the parameter ?dateTime=2024-01-25 13:09:40&amp;secret=turing-automation-26052021&amp;timeZone=Pacific/Auckland</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094215657' status='passed' stop='1683094215657'>
+                    <name>I am waiting for the scheduler to move to the status 200</name>
+                    <title>I am waiting for the scheduler to move to the status 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094215657' status='passed' stop='1683094315686'>
+                    <name>I wait 100</name>
+                    <title>I wait 100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094315721' status='passed' stop='1683094315721'>
+                    <name>I fetched the response of get subscription job list api successfully</name>
+                    <title>I fetched the response of get subscription job list api successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094315723' status='passed' stop='1683094315723'>
+                    <name>I see the current status code for 1706141400 to be 200</name>
+                    <title>I see the current status code for 1706141400 to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094315723' status='passed' stop='1683094315723'>
+                    <name>I see the status code for 1706141400  to validate to be 200</name>
+                    <title>I see the status code for 1706141400  to validate to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094315758' status='passed' stop='1683094315758'>
+                    <name>I am going to validate the schedule id 1 for the epoch time  1706141400</name>
+                    <title>I am going to validate the schedule id 1 for the epoch time  1706141400</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094315758' status='passed' stop='1683094315758'>
+                    <name>I validated the schedule status to be 200</name>
+                    <title>I validated the schedule status to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094316935' status='passed' stop='1683094316935'>
+                    <name>I validated the overall job status code to be 200</name>
+                    <title>I validated the overall job status code to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094316936' status='passed' stop='1683094316936'>
+                    <name>I determined the list of time to be changed in orchestrator for the scheduler validation</name>
+                    <title>I determined the list of time to be changed in orchestrator for the scheduler validation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094316936' status='passed' stop='1683094316936'>
+                    <name>Next time :2024-02-29 13:09:40 Unix Time : 1709165400</name>
+                    <title>Next time :2024-02-29 13:09:40 Unix Time : 1709165400</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094316949' status='passed' stop='1683094316949'>
+                    <name>I modified the orchestrator time with the parameter ?dateTime=2024-02-29 13:09:40&amp;secret=turing-automation-26052021&amp;timeZone=Pacific/Auckland</name>
+                    <title>I modified the orchestrator time with the parameter ?dateTime=2024-02-29 13:09:40&amp;secret=turing-automation-26052021&amp;timeZone=Pacific/Auckland</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094316949' status='passed' stop='1683094316949'>
+                    <name>I am waiting for the scheduler to move to the status 200</name>
+                    <title>I am waiting for the scheduler to move to the status 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094316949' status='passed' stop='1683094416942'>
+                    <name>I wait 100</name>
+                    <title>I wait 100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094416967' status='passed' stop='1683094416967'>
+                    <name>I fetched the response of get subscription job list api successfully</name>
+                    <title>I fetched the response of get subscription job list api successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094416967' status='passed' stop='1683094416967'>
+                    <name>I see the current status code for 1709165400 to be 200</name>
+                    <title>I see the current status code for 1709165400 to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094416967' status='passed' stop='1683094416967'>
+                    <name>I see the status code for 1709165400  to validate to be 200</name>
+                    <title>I see the status code for 1709165400  to validate to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094416991' status='passed' stop='1683094416991'>
+                    <name>I am going to validate the schedule id 1 for the epoch time  1709165400</name>
+                    <title>I am going to validate the schedule id 1 for the epoch time  1709165400</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094416991' status='passed' stop='1683094416991'>
+                    <name>I validated the schedule status to be 200</name>
+                    <title>I validated the schedule status to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094418195' status='passed' stop='1683094418195'>
+                    <name>I validated the overall job status code to be 200</name>
+                    <title>I validated the overall job status code to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094418195' status='passed' stop='1683094418195'>
+                    <name>I determined the list of time to be changed in orchestrator for the scheduler validation</name>
+                    <title>I determined the list of time to be changed in orchestrator for the scheduler validation</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094418195' status='passed' stop='1683094418195'>
+                    <name>Next time :2024-03-28 13:09:40 Unix Time : 1711584600</name>
+                    <title>Next time :2024-03-28 13:09:40 Unix Time : 1711584600</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094418208' status='passed' stop='1683094418208'>
+                    <name>I modified the orchestrator time with the parameter ?dateTime=2024-03-28 13:09:40&amp;secret=turing-automation-26052021&amp;timeZone=Pacific/Auckland</name>
+                    <title>I modified the orchestrator time with the parameter ?dateTime=2024-03-28 13:09:40&amp;secret=turing-automation-26052021&amp;timeZone=Pacific/Auckland</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094418208' status='passed' stop='1683094418208'>
+                    <name>I am waiting for the scheduler to move to the status 200</name>
+                    <title>I am waiting for the scheduler to move to the status 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094418208' status='passed' stop='1683094518259'>
+                    <name>I wait 100</name>
+                    <title>I wait 100</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094518291' status='passed' stop='1683094518291'>
+                    <name>I fetched the response of get subscription job list api successfully</name>
+                    <title>I fetched the response of get subscription job list api successfully</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094518292' status='passed' stop='1683094518292'>
+                    <name>I see the current status code for 1711584600 to be 200</name>
+                    <title>I see the current status code for 1711584600 to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094518292' status='passed' stop='1683094518292'>
+                    <name>I see the status code for 1711584600  to validate to be 200</name>
+                    <title>I see the status code for 1711584600  to validate to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094518316' status='passed' stop='1683094518316'>
+                    <name>I am going to validate the schedule id 1 for the epoch time  1711584600</name>
+                    <title>I am going to validate the schedule id 1 for the epoch time  1711584600</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094518316' status='passed' stop='1683094518316'>
+                    <name>I validated the schedule status to be 200</name>
+                    <title>I validated the schedule status to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683094519516' status='passed' stop='1683094519516'>
+                    <name>I validated the overall job status code to be 200</name>
+                    <title>I validated the overall job status code to be 200</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

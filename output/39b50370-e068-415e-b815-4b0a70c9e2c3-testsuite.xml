@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683128430333' stop='1683128630544'>
+    <name>MonthlySchedules:</name>
+    <title>MonthlySchedules:</title>
+    <test-cases>
+        <test-case start='1683128630467' status='failed' stop='1683128630467'>
+            <name>BeforeSuite of suite MonthlySchedules: failed.</name>
+            <title>BeforeSuite of suite MonthlySchedules: failed.</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>API Status Code is not same for Create Tenant API_withTC_01_TestName</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: API Status Code is not same for Create Tenant API_withTC_01_TestName
+                    at Object.getTheAPIResponse (/tests/utils/APIReusablesLib.js:244:24)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Object.createANewTenantAPI (/tests/BusinessComponents/Tenants.js:58:18)
+                    at Object.performSetup (/tests/utils/schedulerLib.js:102:20)
+                    at Context.&lt;anonymous> (/tests/Tests/C_MonthlySchedules/08M_Tashkent_28DWR.js:35:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
