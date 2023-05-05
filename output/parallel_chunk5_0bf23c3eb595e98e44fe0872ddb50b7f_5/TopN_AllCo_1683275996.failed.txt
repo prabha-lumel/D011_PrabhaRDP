@@ -1,0 +1,6 @@
+You are currently using minified code outside of NODE_ENV === "production". This means that you are running a slower development build of Redux. You can use loose-envify (https://github.com/zertosh/loose-envify) for browserify or setting mode to production in webpack (https://webpack.js.org/concepts/mode/) to ensure you have the correct code for your production build.
+PubSub already loaded, using existing version
+Failed to decode downloaded font: https://inforiverwebtest-dev.azurewebsites.net/dist/cfabcf1dc071c86356bf8e329808ce22.ttf
+OTS parsing error: GDEF: misaligned table
+Failed to decode downloaded font: https://inforiverwebtest-dev.azurewebsites.net/dist/cfabcf1dc071c86356bf8e329808ce22.ttf
+OTS parsing error: GDEF: misaligned table

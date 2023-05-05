@@ -1,0 +1,432 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1683275910343' stop='1683275986164'>
+    <name>Analyze TopN:</name>
+    <title>Analyze TopN:</title>
+    <test-cases>
+        <test-case start='1683275910546' status='failed' stop='1683275986028'>
+            <name>TopN_AllColumns_2 @TopN @Ranking/Top n @XPS-1423</name>
+            <title>TopN_AllColumns_2 @TopN @Ranking/Top n @XPS-1423</title>
+            <labels>
+                <label name='tag' value='@TopN'/>
+                <label name='tag' value='@Ranking/Top n'/>
+                <label name='tag' value='@XPS-1423'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1683275910788' status='passed' stop='1683275910788'>
+                    <name>Analyze TopN --- undefined</name>
+                    <title>Analyze TopN --- undefined</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275910788' status='passed' stop='1683275910788'>
+                    <name>Different Features , hence loading fresh</name>
+                    <title>Different Features , hence loading fresh</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275910789' status='passed' stop='1683275930287'>
+                    <name>I: launchWebApp "https://inforiverwebtest-dev.azurewebsites.net/?csvLocation=https://sabareesh-r23.github.io/MatrixCsvAndConfig/TopN_Pagination.csv&amp;config=https://sabareesh-r23.github.io/MatrixCsvAndConfig/TopN_Pagination.json&amp;URLLoad=true"</name>
+                    <title>I: launchWebApp "https://inforiverwebtest-dev.azurewebsites.net/?csvLocation=https://sabareesh-r23.github.io/MatrixCsvAndConfig/TopN_Pagination.csv&amp;config=https://sabareesh-r23.github.io/MatrixCsvAndConfig/TopN_Pagination.json&amp;URLLoad=true"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1683275910789' status='passed' stop='1683275930285'>
+                            <name>I am on page "https://inforiverwebtest-dev.azurewebsites.net/?csvLocation=https://sabareesh-r23.github.io/MatrixCsvAndConfig/TopN_Pagination.csv&amp;config=https://sabareesh-r23.github.io/MatrixCsvAndConfig/TopN_Pagination.json&amp;URLLoad=true"</name>
+                            <title>I am on page "https://inforiverwebtest-dev.azurewebsites.net/?csvLocation=https://sabareesh-r23.github.io/MatrixCsvAndConfig/TopN_Pagination.csv&amp;config=https://sabareesh-r23.github.io/MatrixCsvAndConfig/TopN_Pagination.json&amp;URLLoad=true"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1683275930285' status='passed' stop='1683275930286'>
+                            <name>I set view port </name>
+                            <title>I set view port </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1683275930287' status='passed' stop='1683275933928'>
+                    <name>I: clickOnHomeTab </name>
+                    <title>I: clickOnHomeTab </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1683275930287' status='passed' stop='1683275933928'>
+                            <name>I wait for element span#hierarchy-p, 10</name>
+                            <title>I wait for element span#hierarchy-p, 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1683275933928' status='passed' stop='1683275933928'>
+                            <name>Home Layout Button ...true</name>
+                            <title>Home Layout Button ...true</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1683275933928' status='passed' stop='1683275933931'>
+                    <name>I grab number of visible elements "//span[@class="sidebar-header-close"]"</name>
+                    <title>I grab number of visible elements "//span[@class="sidebar-header-close"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275933931' status='passed' stop='1683275933933'>
+                    <name>I grab number of visible elements "//div[@title="Pin to Toolbar"]"</name>
+                    <title>I grab number of visible elements "//div[@title="Pin to Toolbar"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275934949' status='passed' stop='1683275935701'>
+                    <name>I click //div[@class="component-layout"]</name>
+                    <title>I click //div[@class="component-layout"]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275935701' status='passed' stop='1683275936722'>
+                    <name>I: clickOnHomeTab </name>
+                    <title>I: clickOnHomeTab </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1683275935701' status='passed' stop='1683275935706'>
+                            <name>I wait for element span#hierarchy-p, 10</name>
+                            <title>I wait for element span#hierarchy-p, 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1683275935706' status='passed' stop='1683275935706'>
+                            <name>Home Layout Button ...true</name>
+                            <title>Home Layout Button ...true</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1683275936722' status='passed' stop='1683275938161'>
+                    <name>I click "span#reset-b"</name>
+                    <title>I click "span#reset-b"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275938161' status='passed' stop='1683275940166'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275941172' status='passed' stop='1683275942141'>
+                    <name>I click "//span[text()='Reset All']"</name>
+                    <title>I click "//span[text()='Reset All']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275942141' status='passed' stop='1683275942147'>
+                    <name>I wait for element "//button[text()="Proceed"]", 10</name>
+                    <title>I wait for element "//button[text()="Proceed"]", 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275943151' status='passed' stop='1683275943953'>
+                    <name>I click //button[text()="Proceed"]</name>
+                    <title>I click //button[text()="Proceed"]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275943953' status='passed' stop='1683275948968'>
+                    <name>I wait 5</name>
+                    <title>I wait 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275949979' status='passed' stop='1683275950718'>
+                    <name>I click //div[@class="component-layout"]</name>
+                    <title>I click //div[@class="component-layout"]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275950718' status='passed' stop='1683275951723'>
+                    <name>I wait 1</name>
+                    <title>I wait 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275952728' status='passed' stop='1683275953525'>
+                    <name>I click span#theme-s</name>
+                    <title>I click span#theme-s</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275953525' status='passed' stop='1683275953529'>
+                    <name>I wait for element "//div[@class="tab-label" and text()="General"]", 5</name>
+                    <title>I wait for element "//div[@class="tab-label" and text()="General"]", 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275954545' status='passed' stop='1683275955279'>
+                    <name>I click "//div[@class="tab-label" and text()="General"]"</name>
+                    <title>I click "//div[@class="tab-label" and text()="General"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275955279' status='passed' stop='1683275955281'>
+                    <name>I grab number of visible elements "//div[text()="Show Floating Toolbar"]//following-sibling::div//input[@aria-checked="true"]"</name>
+                    <title>I grab number of visible elements "//div[text()="Show Floating Toolbar"]//following-sibling::div//input[@aria-checked="true"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275956284' status='passed' stop='1683275957021'>
+                    <name>I click span.sidebar-header-close</name>
+                    <title>I click span.sidebar-header-close</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275958035' status='passed' stop='1683275958771'>
+                    <name>I click span#theme-s</name>
+                    <title>I click span#theme-s</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275958771' status='passed' stop='1683275958775'>
+                    <name>I wait for element "//div[@class="tab-label" and text()="Hierarchy"]", 5</name>
+                    <title>I wait for element "//div[@class="tab-label" and text()="Hierarchy"]", 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275959784' status='passed' stop='1683275960568'>
+                    <name>I click "//div[@class="tab-label" and text()="Hierarchy"]"</name>
+                    <title>I click "//div[@class="tab-label" and text()="Hierarchy"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275960568' status='passed' stop='1683275960573'>
+                    <name>I wait for element "//div[text()="Row Totals"]//span[contains(@class,"mr-3 ms-Icon ms-Icon--ChevronRight")]", 5</name>
+                    <title>I wait for element "//div[text()="Row Totals"]//span[contains(@class,"mr-3 ms-Icon ms-Icon--ChevronRight")]", 5</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275961593' status='passed' stop='1683275962329'>
+                    <name>I click "//div[text()="Row Totals"]//span[contains(@class,"mr-3 ms-Icon ms-Icon--ChevronRight")]"</name>
+                    <title>I click "//div[text()="Row Totals"]//span[contains(@class,"mr-3 ms-Icon ms-Icon--ChevronRight")]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275963339' status='passed' stop='1683275964063'>
+                    <name>I click "//div[contains(text(),"Expand")]/parent::div//div[@id='toolbar_downArrow']"</name>
+                    <title>I click "//div[contains(text(),"Expand")]/parent::div//div[@id='toolbar_downArrow']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275965077' status='passed' stop='1683275965825'>
+                    <name>I click "//span[contains(text(),"Always Present")]"</name>
+                    <title>I click "//span[contains(text(),"Always Present")]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275966832' status='passed' stop='1683275967589'>
+                    <name>I click span.sidebar-header-close</name>
+                    <title>I click span.sidebar-header-close</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275967589' status='passed' stop='1683275969601'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275969601' status='passed' stop='1683275969601'>
+                    <name>The Reset Click Message :-> </name>
+                    <title>The Reset Click Message :-> </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275969606' status='passed' stop='1683275970614'>
+                    <name>I: clickOnHomeTab </name>
+                    <title>I: clickOnHomeTab </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1683275969606' status='passed' stop='1683275969611'>
+                            <name>I wait for element span#hierarchy-p, 10</name>
+                            <title>I wait for element span#hierarchy-p, 10</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1683275969611' status='passed' stop='1683275969611'>
+                            <name>Home Layout Button ...true</name>
+                            <title>Home Layout Button ...true</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1683275970614' status='passed' stop='1683275971452'>
+                    <name>I click "//span[@id="manageColumns-p"]"</name>
+                    <title>I click "//span[@id="manageColumns-p"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275971452' status='passed' stop='1683275971452'>
+                    <name>clicked on "Manage Columns" button on toolbar</name>
+                    <title>clicked on "Manage Columns" button on toolbar</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275971452' status='passed' stop='1683275973455'>
+                    <name>I wait 2</name>
+                    <title>I wait 2</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275974467' status='passed' stop='1683275975241'>
+                    <name>I click "//div[contains(@class,"measure-label") and text()="Sum of Profit - Sum of Sales"]/parent::div/following-sibling::div/input"</name>
+                    <title>I click "//div[contains(@class,"measure-label") and text()="Sum of Profit - Sum of Sales"]/parent::div/following-sibling::div/input"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275976248' status='passed' stop='1683275977015'>
+                    <name>I click "//div[contains(@class,"measure-label") and text()="(Sum of Profit - Sum of Sales)%"]/parent::div/following-sibling::div/input"</name>
+                    <title>I click "//div[contains(@class,"measure-label") and text()="(Sum of Profit - Sum of Sales)%"]/parent::div/following-sibling::div/input"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275978018' status='passed' stop='1683275978785'>
+                    <name>I click "//div[contains(@class,"measure-label") and text()="Sum of Profit - Sum of Quantity"]/parent::div/following-sibling::div/input"</name>
+                    <title>I click "//div[contains(@class,"measure-label") and text()="Sum of Profit - Sum of Quantity"]/parent::div/following-sibling::div/input"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275979791' status='passed' stop='1683275980594'>
+                    <name>I click "//div[@id="2014__delPY"]"</name>
+                    <title>I click "//div[@id="2014__delPY"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275981597' status='passed' stop='1683275982343'>
+                    <name>I click span#ranking-b</name>
+                    <title>I click span#ranking-b</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275982343' status='passed' stop='1683275982343'>
+                    <name>Clicked  "TopN" drop down on toolbar</name>
+                    <title>Clicked  "TopN" drop down on toolbar</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275983353' status='passed' stop='1683275984093'>
+                    <name>I fill field input.ranking-rule-topNInput, "8"</name>
+                    <title>I fill field input.ranking-rule-topNInput, "8"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275984094' status='passed' stop='1683275984094'>
+                    <name>Entered 8 in the TopNInput</name>
+                    <title>Entered 8 in the TopNInput</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275985107' status='passed' stop='1683275985895'>
+                    <name>I click {xpath: .//div[(contains(concat(' ', normalize-space(./@class), ' '), ' ib_footer ') and contains(concat(' ', normalize-space(./@class), ' '), ' ib_preSuffix '))]//button[contains(., 'Apply')]}</name>
+                    <title>I click {xpath: .//div[(contains(concat(' ', normalize-space(./@class), ' '), ' ib_footer ') and contains(concat(' ', normalize-space(./@class), ' '), ' ib_preSuffix '))]//button[contains(., 'Apply')]}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275985895' status='passed' stop='1683275985895'>
+                    <name>Clicked  "TopN_Apply" drop down on toolbar</name>
+                    <title>Clicked  "TopN_Apply" drop down on toolbar</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275985895' status='passed' stop='1683275985895'>
+                    <name>Visual Compare Method----------------------------------------</name>
+                    <title>Visual Compare Method----------------------------------------</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275985895' status='failed' stop='1683275985898'>
+                    <name>I see element "//div[@class="toast-main-content"]"</name>
+                    <title>I see element "//div[@class="toast-main-content"]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275985898' status='passed' stop='1683275985898'>
+                    <name>***** screenshotUIOperation Method Started ******</name>
+                    <title>***** screenshotUIOperation Method Started ******</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275985898' status='passed' stop='1683275985905'>
+                    <name>I: waitforElementVisible "div.table-header-container"</name>
+                    <title>I: waitforElementVisible "div.table-header-container"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1683275985898' status='passed' stop='1683275985904'>
+                            <name>I grab number of visible elements "div.table-header-container"</name>
+                            <title>I grab number of visible elements "div.table-header-container"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1683275985905' status='passed' stop='1683275985905'>
+                            <name>First Element Visible :1</name>
+                            <title>First Element Visible :1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1683275985905' status='passed' stop='1683275985909'>
+                    <name>I grab number of visible elements "//div[@class="tooltip" and contains(@style, "display: block;")]"</name>
+                    <title>I grab number of visible elements "//div[@class="tooltip" and contains(@style, "display: block;")]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275985909' status='passed' stop='1683275986003'>
+                    <name>I save screenshot "TopN_AllColumns_2_PageOne_delPY_1.png", true</name>
+                    <title>I save screenshot "TopN_AllColumns_2_PageOne_delPY_1.png", true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275986003' status='passed' stop='1683275986003'>
+                    <name>***** screenshotUIOperation Method Completed ******</name>
+                    <title>***** screenshotUIOperation Method Completed ******</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275986020' status='passed' stop='1683275986020'>
+                    <name>After checking File Exists --> TopN_AllColumns_2_PageOne_delPY_1 ==> true</name>
+                    <title>After checking File Exists --> TopN_AllColumns_2_PageOne_delPY_1 ==> true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275986020' status='passed' stop='1683275986020'>
+                    <name>Method:takeCustomElementScreenshot ->The Current Screenshot File Status :> true</name>
+                    <title>Method:takeCustomElementScreenshot ->The Current Screenshot File Status :> true</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275986021' status='passed' stop='1683275986021'>
+                    <name>Unique Object Identified</name>
+                    <title>Unique Object Identified</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1683275986027' status='passed' stop='1683275986027'>
+                    <name>Visual Comparison for TopN_AllColumns_2_PageOne_delPY_1 has been --> Error: \\?\C:\Users\QA-LAB\Documents\GitHub\InforiverMatrixWebAutomation\node_modules\resemblejs\node_modules\canvas\build\Release\canvas.node is not a valid Win32 application.
+                    \\?\C:\Users\QA-LAB\Documents\GitHub\InforiverMatrixWebAutomation\node_modules\resemblejs\node_modules\canvas\build\Release\canvas.node </name>
+                    <title>Visual Comparison for TopN_AllColumns_2_PageOne_delPY_1 has been --> Error: \\?\C:\Users\QA-LAB\Documents\GitHub\InforiverMatrixWebAutomation\node_modules\resemblejs\node_modules\canvas\build\Release\canvas.node is not a valid Win32 application.
+                    \\?\C:\Users\QA-LAB\Documents\GitHub\InforiverMatrixWebAutomation\node_modules\resemblejs\node_modules\canvas\build\Release\canvas.node </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='006f29ec-f2f7-4641-9d87-a67e1cbf0c67-attachment.png' type='image/png' size='133799'/>
+                <attachment title='Last Seen Browser Logs' source='bf9ea991-6d37-406f-8799-9e17abc2a433-attachment.null' type='text/json' size='911'/>
+            </attachments>
+            <failure>
+                <message>res.includes is not a function</message>
+                <stack-trace>TypeError: res.includes is not a function
+                    at Object.trytoVisualCompare (C:\Users\QA-LAB\Documents\GitHub\InforiverMatrixWebAutomation\utils\vrtUtils.js:86:55)
+                    at Test.&lt;anonymous> (C:\Users\QA-LAB\Documents\GitHub\InforiverMatrixWebAutomation\Tests\TopNCopy\OR_TC40_AllColumnsTwo.js:33:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
